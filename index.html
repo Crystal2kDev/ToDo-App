@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+  <title>ToDo App</title>
+</head>
+<body>
+
+  <div class="wrapper">
+    <div class="todo-app">
+      <header class="header">
+        
+        <a href="#" class="logo">ToDo App</a>
+
+        <button class="burger-menu">
+          <span class="burger-menu__line"></span>
+          <span class="burger-menu__line"></span>
+          <span class="burger-menu__line"></span>
+        </button>
+  
+        <nav class="burger-nav">
+          <button class="burger-nav__button">Clear All</button>
+        </nav>
+        
+      </header>
+      <main>
+        <form class="new-task-form">
+          <input 
+          type="text" 
+          class="new-task-input"
+          placeholder="What do you have planned?"/>
+  
+          <input 
+          type="submit" 
+          class="new-task-submit"
+          value="Add Task"
+          >
+        </form>
+  
+        <div class="tasks">
+          <!-- <div class="task">
+            <div class="task__content">
+              <input 
+              type="text"
+              class="text"
+              value="First Task"
+              readonly/>
+            </div>
+            
+            <div class="actions">
+              <button class="edit"><i class="uil uil-pen"></i></button>
+              <button class="delete"><i class="uil uil-trash-alt"></i></button>
+            </div>
+          </div> -->
+        </div>
+      </main>
+    </div>
+  </div>
+  
+
+  <script src="js/index.js"></script>
+</body>
+</html>
